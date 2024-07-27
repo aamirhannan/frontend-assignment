@@ -1,0 +1,264 @@
+/* body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+
+} */
+
+
+@media screen and (max-width: 500px) {
+  .filter {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 16px !important;
+  }
+
+  .card-section{
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+
+    .card{
+      width: 95% !important;
+    }
+  }
+}
+
+.wellness-outer-container{
+  width: 100%;
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+  /* margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 24px; */
+  /* border-radius: 16px; */
+  overflow: hidden;
+  /* background-color: red; */
+  /* padding-left: 100px; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  
+  
+  
+
+  .header{
+    width: 100%;
+    height: fit-content;
+    background-color: blueviolet;
+    margin: 0;
+    padding: 0;
+    /* -moz-border-radius: 0px;
+    -webkit-border-radius: 4px 4px 0px 0px;
+    border-radius: 4px 4px 0px 0px; */
+    
+
+    .header-title{
+      font-size: 36px;
+      color: black;
+      font-weight: 700;
+      margin: 0;
+      padding: 12px 16px;
+      /* padding: 0; */
+    }
+    
+  }
+
+  .hero{
+    /* background-color: lightgray; */
+    width: 95%;
+    /* margin: auto; */
+    margin-top: 24px;
+    padding: 24px;
+    border-radius:  8px;
+    .hero-image{
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      /* padding: 12px; */
+    }
+
+    .hero-title{
+      font-size: 32px;
+      font-weight: 500; 
+      padding-top: 16px;
+    }
+
+    .hero-description{
+      font-size: 16;
+      font-weight: 400;
+      padding-top: 16px;
+    }
+
+  }
+
+  .filter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+
+    .filter-date{
+      padding: 12px 24px;
+      background-color: blueviolet;
+      color: white;
+      font-size: 18px;
+      width: fit-content;
+      outline: none;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .filter-type{
+      padding: 12px 24px;
+      background-color: blueviolet;
+      color: white;
+      font-size: 18px;
+      width: fit-content;
+      outline: none;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .filter-search{
+      padding: 12px 24px;
+      background-color: blueviolet;
+      color: white;
+      font-size: 18px;
+      width: 28%;
+      outline: none;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
+
+    ::placeholder {
+      color: white;
+      opacity: 1;
+      /* Firefox */
+    }
+  
+    ::-ms-input-placeholder {
+      /* Edge 12 -18 */
+      color: white;
+    }
+
+    .card-section{
+      width: 100%;
+      height: 100px;
+      background-color: red;
+      display: flex;
+      flex-direction: row;
+
+    }
+
+    
+  }
+
+
+  .card-section{
+    /* width: 30%; */
+    height: fit-content; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 95%;
+    padding-top: 48px;
+    flex-wrap: wrap;
+    gap: 24px;
+    
+    .card{
+      width: 28%;
+      height: fit-content;
+      background-color: lightgray;
+      border-radius: 16px;
+
+      .card-inside-container{
+        padding: 24px;
+
+        img{
+          border-radius: 12px;
+          width: 200px;
+          height: 180px;
+        }
+
+        .card-title{
+          font-size: 24px;
+          font-weight: 500;
+          padding-top: 16px;
+        }
+
+        .card-description{
+          font-size: 16px;
+          font-weight: 400;
+          padding-top: 16px;
+        }
+
+
+        .creation-information{
+          padding-top: 16px;
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          flex-direction: column;
+          gap: 16px;
+          .date-info{
+            font-size: 16px;
+            font-weight: 400;
+          }
+
+          .location-info{
+            font-size: 16px;
+              font-weight: 400;
+          }
+
+          .price-info{
+            font-size: 16px;
+              font-weight: 400;
+          }
+        }
+
+      }
+
+    }
+    
+
+  
+  }
+
+
+  .pagination{
+    padding-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    .page-btn{
+      padding: 12px 24px;
+        background-color: blueviolet;
+        color: white;
+        font-size: 18px;
+        width: fit-content;
+        outline: none;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+  }
+
+
+  .footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 52px;
+    padding-bottom: 24px;
+  }
+
